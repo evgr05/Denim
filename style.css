@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+    
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    color: #151C22;
+}
+
+.main-container{
+    left: 0px;
+    top: 67px;
+    background: #F1F2F4;
+}
+
+.main-container h1{
+    font-family: 'Anton';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 128px;
+    line-height: 193px;
+    display: flex;
+    align-items: center;
+
+    color: #151C22;
+}
+
+
+.main-container a{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+
+    color: #151C22;
+
+}
+
