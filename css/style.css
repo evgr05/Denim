@@ -71,16 +71,15 @@ img {
 
 .main-nav-items {
     list-style: none;
-    flex-wrap: wrap;
-    width: 141px;
+    width: 23px;
     padding: 0;
-    margin: 0;
-    display: flex;
+    margin: revert;
+    display: block;
 }
 
 .personel-menu {
-    display: flex;
-    flex-wrap: wrap;
+    display: contents;
+    min-width: 400px;
 }
 
 .main-nav-item:not(:last-child) {
@@ -113,7 +112,6 @@ img {
 
 
 
-/* Main -- Promo */
 
 .promo {
     min-height: 617px;
@@ -187,17 +185,21 @@ img {
 }
 
 .button {
-    display: block;
+    display: flex;
     min-height: 64px;
     background-color: var(--basic-black);
     color: var(--basic-white);
     font-weight: bold;
     font-size: 16px;
+    align-items: center;
+    justify-content: center;
 }
 
 .promo-btn {
     width: 219px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-bottom: auto;
     margin-top: 50px;
 }
